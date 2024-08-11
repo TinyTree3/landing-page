@@ -5,11 +5,11 @@ body {
 }
 
 img {
-    border: 3px solid;
+    border: 4px solid;
     border-color: #3882F6;
-    border-radius: 8px;
-    width: 150px;
-    height: 150px;
+    border-radius: 16px;
+    width: 160px;
+    height: 160px;
 }
 
 a {
@@ -47,7 +47,7 @@ p {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 200px 100px 200px
+    padding: 20px 200px 120px 200px
 }
 
 .logo {
@@ -86,15 +86,28 @@ p {
 }
 
 .section-two {
-    padding: 0 200px;
+    padding: 0 200px 120px;
 }
 
 .info {
     display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    max-width: 170px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
 }
 
 .block p {
-    color: #757d85;
+    color: #767c84;
+    font-weight: 500;
 }
 
 .section-three {
