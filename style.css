@@ -30,6 +30,14 @@ h3 {
     color: #1F2937;
     font-size: 36px;
     font-weight: 1000;
+    padding: 20px 0;
+}
+
+h5 {
+    padding: 0;
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 p {
@@ -79,10 +87,10 @@ p {
     color: #F9FAF8;
     font-size: 18px;
     font-weight: 900;
-    padding: 8px 36px;
+    padding: 8px 32px;
     border-radius: 8px;
     border: none;
-    margin: 8px 0;
+    margin: 12px 0;
 }
 
 .section-two {
@@ -133,13 +141,30 @@ p {
 }
 
 .section-four {
-    background-color: #F9FAF8;
+    background-color: white;
     padding: 0 200px;
+}
+
+.sign-up-box {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 90px 0;
+    padding: 48px 96px;
+    border-radius: 8px;
+    gap: 120px;
+}
+
+.sign-up-box .sign-up {
+    border: 2px;
+    border-style: solid;
+    border-color: #F9FAF8;
 }
 
 .footer {
     color:#E5E7EB;
     text-align: center;
     font-size: 18px;
-    padding: 18px;
+    padding: 36px;
 }
